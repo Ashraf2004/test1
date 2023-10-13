@@ -1,0 +1,23 @@
+react components are two types
+1.function components
+2.class components
+
+Exporting a component
+a.default Export. A module cannot have multiple export
+b.namespace export. A module can have multiple export.
+
+Importing a component
+a.default
+b.namespace 
+
+Differece between function component and class component
+*function component:
+In older versions function component is considered as stateless component and but now in latest versions function component can also have state with the help of Hooks.
+Life cycle is not present in funtion component.
+*class component:
+It is considered as statefull component.
+Life cycle is present in the class component.
+
+*state: state is internal memory component.
+
+*props: props is an object which is used to transmit data from one component to another {parent component to child component}

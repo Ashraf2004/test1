@@ -1,0 +1,29 @@
+LIFE CYCLE METHODS:
+
+1.Intial phase
+
+define the value of state and props
+
+2.Mounting phase
+
+a. constructor() -> used to construct a class component
+
+b. getDerivedStateFromProps() -> used to get the value of state and props
+
+c. render() -> used to render the webpage
+
+d. componentDidMount() -> used to work with side effect[i.e: HTTP request]
+
+3.Updating phase
+
+a. getDerivedStateFromProps() -> used to get the value of state and props
+
+b. shouldComponentUpdate() -> used to declare whether component should update c. render() -> used to render the updated webpage
+
+d. getSnapshot BeforeUpdate() -> used to store the previous state and props val
+
+e. componentDidUpdate() -> used to work with side effects
+
+4.Unmounting phase
+
+a. componentWill Unmount() -> when the component is being removed
